@@ -11,23 +11,20 @@ source:
   sha256: e4e1d9366fc4ca60b4b2354b6d12e65600600a8c7bf4392c84f2f4ff4abc85ff
 
 build:
-  number: 2
-  skip: true  # [win or py<36]
+  number: 3
+  noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
-  build:
-    - python                                 # [build_platform != target_platform]
-    - cross-python_{{ target_platform }}     # [build_platform != target_platform]
   host:
     - pip
-    - python
+    - python >=3.6
   run:
     - docutils >=0.3
     - psutil
-    - python
+    - python >=3.6
     - setuptools
-
+    - __unix
 test:
   imports:
     - pynisher
