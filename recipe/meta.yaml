@@ -20,7 +20,6 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - docutils >=0.3
     - psutil
     - python >=3.6
     - setuptools
