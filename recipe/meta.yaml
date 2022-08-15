@@ -22,8 +22,9 @@ requirements:
   run:
     - psutil
     - python >=3.6
-    - setuptools
-    - __unix
+    - typing_extensions
+    - pywin32-on-windows
+    # allows us to stay noarch
 
 test:
   imports:
