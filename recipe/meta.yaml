@@ -1,5 +1,5 @@
 {% set name = "pynisher" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e4525008dfb23b5821ec72b8ecc451fd202bf10ce2c776dfae3cb3b1a9014170
+  sha256: 0642911415809ec90836b06908ef7412a85c20cc9e0818919fb59b6254ec407e
 
 build:
   number: 0
