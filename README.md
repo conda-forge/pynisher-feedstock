@@ -1,11 +1,11 @@
-About pynisher
-==============
+About pynisher-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pynisher-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/automl/pynisher
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pynisher-feedstock/blob/main/LICENSE.txt)
 
 Summary: A small Python library to limit the resources used by a function by executing it inside a subprocess.
 
