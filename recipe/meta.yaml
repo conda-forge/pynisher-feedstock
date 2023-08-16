@@ -18,10 +18,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
   run:
     - psutil
-    - python >=3.6
+    - python >=3.7
     - typing_extensions
     - pywin32-on-windows
     # allows us to stay noarch
